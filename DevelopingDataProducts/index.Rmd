@@ -1,8 +1,8 @@
 ---
-title       : 
-subtitle    : 
-author      : 
-job         : 
+title       : Linear Prediction Model 
+subtitle    : Comparison Between Calculated (Regression Formula)  and predict() R function
+author      : Authored by  GB
+job         : Potential Data Scientist
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
@@ -11,11 +11,14 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Read-And-Delete
+## Introduction 
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+1. Generate independent variable x values
+2. Generate dependent variable y values
+3. Generate a Linear Regression Model 
+4. Formulate the Regression formula and calculate(predict) expected values
+5. Run the predict function on the model and generate (predict) expected values
+6. Draw a table to compare values
 
 --- .class #id 
 
